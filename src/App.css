@@ -28,6 +28,51 @@
   color: #61dafb;
 }
 
+.classes-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.class-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.class-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.class-box {
+  border: 1px black solid;
+  margin-bottom: 8px;
+  padding: 16px;
+  min-width: 300px;
+}
+
+.class-title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.class-subtitle {
+  font-size: 14px;
+  /* font-style: italic; */
+}
+
+.group-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
